@@ -9,7 +9,6 @@ from subprocess import call, Popen
 from functools import partial
 from platform import python_version_tuple
 
-from github import Github
 
 if python_version_tuple()[0] == u'2':
     input = lambda prompt: raw_input(prompt.encode('utf8')).decode('utf8')
